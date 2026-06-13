@@ -25,6 +25,8 @@ fn main() {
         .allowlist_function("ncnn.*")
         .allowlist_var("NCNN.*")
         .allowlist_type("ncnn.*")
+        .blocklist_type("std::.*")
+        .opaque_type("std::.*")
         .generate()
         .expect("Unable to generate bindings");
 

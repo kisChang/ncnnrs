@@ -5,10 +5,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# ncnn_demo = { path = "../../ncnn_demo" }
-ncnnrs = "*"
-# /Users/baiyue/work/ncnn_demo/example/get_version/Cargo.toml
-# example/get_version/Cargo.toml
+ncnnrs = { path="../../" }
 
 
 [lints.rust]
